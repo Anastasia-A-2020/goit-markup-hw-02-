@@ -1,0 +1,210 @@
+:root{
+  --primary-text-color:#757575;
+  --title-primary-color:#212121;
+  --title-secondary-color: #FFFFFF;
+  --accent-color: #2196F3;
+  --bg-secondary-color: #F5F4FA;
+}
+
+body{
+  background-color: #E5E5E5;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* HEADER */
+.logo{
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  text-decoration: none;
+}
+
+.logo>.color-part{
+color:#000000;
+}
+
+.navigation{
+  color: var(--title-primary-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+
+.list>.item{
+  list-style: none;
+}
+
+.link{
+  color: inherit;
+  text-decoration: none;
+}
+
+.link.active{
+  color: var(--accent-color);
+}
+
+.header .mail,
+.header .phone{
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+
+.header .link:hover,
+.header .link:focus{
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+/* HERO */
+.hero{
+  background-color: #2F303A;
+}
+
+.hero-title{
+  color: var(--title-secondary-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero .button{
+  color:var(--title-secondary-color);
+  background-color: var(--accent-color);
+
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* FEATURES */
+.title,
+.subtitle{
+  color: var(--title-primary-color);
+  font-weight: 700;
+}
+
+.subtitle{
+  font-size: 14px;
+  line-height: 1.143;
+}
+
+.features .subtitle{
+  text-transform: uppercase;
+}
+
+.description{
+  color:var(--primary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+/* WORKS */
+.title{
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+}
+
+/* TEAM */
+.team .subtitle{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+}
+
+.team .description{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+}
+
+/* FOOTER */
+.footer{
+  background-color: #2F303A;
+}
+
+.footer .color-part{
+  color:var(--title-secondary-color);
+}
+
+.address{
+  color:var(--title-secondary-color);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+.footer .mail,
+.footer .phone{
+  color:rgba(255, 255, 255, .6);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+/* PORTFOLIO */
+.portfolio .button{
+  color: var(--title-primary-color);
+  background-color: var(--bg-secondary-color);
+  
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+}
+
+.portfolio .button:hover,
+.portfolio .button:focus{
+  color: var(--title-secondary-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.gallery .subtitle{
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.gallery .description{
+  font-size: 16px;
+  line-height: 1.875;
+}
+
